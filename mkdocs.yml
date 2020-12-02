@@ -1,0 +1,55 @@
+site_name: 程序员代码面试指南-IT名企算法与数据结构题目最优解
+site_url: "https://github.com/SourceNote/guide-to-programmer-code-interview"
+site_author: Tacey Wong
+edit_url: "https://github.com/SourceNote/guide-to-programmer-code-interview/edit/master/contents/"
+
+docs_dir: "contents"
+
+theme: united
+
+nav:
+    - 主页: index.md
+    - 第一章——栈和队列:
+        - "1.设计一个有getMin功能的栈": "01-设计一个有getMin功能的栈/note.md"
+        - "2.由两个栈组成的队列": "02-由两个栈组成的队列/note.md"
+        - "3.如何仅用递归函数和栈操作逆序一个栈": "03-如何仅用递归函数和栈操作逆序一个栈/note.md"
+        - "4.猫狗队列": "04-猫狗队列/note.md"
+        - "5.用一个栈实现另一个栈的排序": "05-用一个栈实现另一个栈的排序/note.md"
+        - "6.用栈来求解汉诺塔问题": "06-用栈来求解汉诺塔问题/note.md"
+        - "7.生成窗口最大值数组": "07-生成窗口最大值数组/note.md"
+        - "8.构造数组的MaxTree": "08-构造数组的MaxTree/note.md"
+        - "9.求最大子矩阵的大小": "09-求最大子矩阵的大小/note.md"
+        - "10.最大值减去最小值小于或等于num的子数组数量": "10-最大值减去最小值小于或等于num的子数组数量/note.md"
+    
+    - 第二章——链表问题:
+        - "1.打印两个有序链表的公共部分": "01-打印两个有序链表的公共部分"
+        - "2.在单链表和双链表中删除倒数第K个节点": ""
+        - "3.删除链表的中间节点和a/b处的节点": ""
+        - "4.反转单向和双向链表": ""
+        - "5.反转部分单向链表": ""
+        - "6.环形单链表的约瑟夫问题": ""
+        - "7.判断一个链表是否为回文结构": ""
+        - "8.将单向链表按某值划分成左边小": ""
+        - "": ""
+        - "": ""
+        - "": ""
+        - "": ""
+        - "": ""
+        - "": ""
+        - "": ""
+        - "": ""
+        - "": ""
+        - "": ""
+        - "": ""
+        - "": ""
+        - "": ""
+        - "": ""
+        - "": ""
+        - "": ""
+
+
+markdown_extensions:
+    - smarty
+    - toc:
+        permalink: True
+    - sane_lists
